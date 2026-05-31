@@ -4,6 +4,8 @@ An elegant, high-fidelity developer dashboard aggregating live AI research, tech
 
 🌐 **Live Feed Dashboard**: Combines Hacker News (AI), OpenAI, Hugging Face, Google Research, TechCrunch, The Verge, MIT Technology Review, and Ars Technica into a single, unified stream.
 
+👉 **[Open the live dashboard](https://danilogiacomi.github.io/Neural-Intelligence-Stream/)**
+
 ---
 
 ## ✨ Features
@@ -24,50 +26,3 @@ An elegant, high-fidelity developer dashboard aggregating live AI research, tech
 - **Styling**: Vanilla CSS (CSS Variables, HSL/OKLCH coordinates, container-queries)
 - **Icons**: Lucide React
 - **Engine**: Client-side RSS-to-JSON API proxy
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-Make sure you have Node.js installed (v18 or higher recommended).
-
-### Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/neural-intelligence-stream.git
-   cd neural-intelligence-stream
-   ```
-
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-3. Start the local development server:
-   ```bash
-   npm run dev
-   ```
-   Open `http://localhost:5173` to view the stream dashboard.
-
-### Building for Production
-
-To compile and preview the production build:
-```bash
-npm run build
-```
-
----
-
-## 🛫 CI/CD Automated Deployment
-
-The project includes a GitHub Actions workflow configured in `.github/workflows/deploy.yml` that automatically builds and deploys your site to **GitHub Pages** on every push to the `main` branch.
-
-### How to configure GitHub Pages:
-
-1. Push your repository to GitHub.
-2. In your repository settings, go to **Settings** -> **Actions** -> **General** -> **Workflow permissions**, and select **Read and write permissions** (to allow the action to deploy assets).
-3. Go to **Settings** -> **Pages**, and under **Build and deployment**, select **Deploy from a branch** and set it to **`gh-pages`** branch.
-4. Your dashboard will be live at `https://<your-username>.github.io/neural-intelligence-stream/`!
