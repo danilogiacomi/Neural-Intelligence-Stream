@@ -1,5 +1,5 @@
 import React from 'react';
-import { Zap, Heart } from 'lucide-react';
+import { Zap, Heart, Star } from 'lucide-react';
 import { SearchBar } from './SearchBar';
 import { ThemeToggle } from './ThemeToggle';
 
@@ -28,6 +28,19 @@ export const Header: React.FC<HeaderProps> = ({
       <div className="header-actions">
         {/* Search bar */}
         <SearchBar onSearch={onSearch} />
+
+        {/* Star on GitHub */}
+        <a
+          href="https://github.com/danilogiacomi/Neural-Intelligence-Stream"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="github-star-btn"
+          aria-label="Star this project on GitHub"
+          title="Star this project on GitHub"
+        >
+          <Star size={18} />
+          <span className="github-star-text">Star on GitHub</span>
+        </a>
 
         {/* Theme toggle */}
         <ThemeToggle />
